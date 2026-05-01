@@ -21,6 +21,8 @@
 
 -package:
 
+--------------------------------------------------------------------
+
 +:sway,waybar
 
 +:man-db, man-pages, texinfo
@@ -29,13 +31,9 @@
 
 +blutooth:bluez, bluez-utils, blueman
 
-+:eww (yay)
-
 +:fastfetch
 
 +:firefox
-
-+:git
 
 +:greetd, greete-regreet
 
@@ -48,7 +46,17 @@
 +:pipewire, pavucontrol, pipewire-audio
 
 +:wofi
++:base-devel (--needed)
 
+-----------------------------------------------------------------
+
++:git
+
++:yay (https://aur.archlinux.org/yay.git)
+
++:code (vscode)
+
++:eww (yay)
 
 
 -cai dat greetd,regreet,sway
