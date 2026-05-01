@@ -21,7 +21,7 @@
 
 -package:
 
-+:sway
++:sway,waybar
 
 +:man-db, man-pages, texinfo
 
