@@ -69,7 +69,11 @@
 
 +cau hinh /etc/greetd/regreet.toml
 
-+cau hinh ~/.config/sway/config
++cau hinh ~/.config/sway/config(
+	copy default truoc de dung 
+	:mkdir -p ~/.config/sway
+	:cp /etc/sway/config ~/.config/sway/config
+)
  
 (reboot)
  
