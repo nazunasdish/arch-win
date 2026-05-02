@@ -23,7 +23,7 @@
 
 --------------------------------------------------------------------
 
-+:sway,swaybg,waybar,xorg-xwayland
++:sway,swaybg,waybar,xorg-xwayland,swaylock,swayidle
 
 +:man
 
@@ -46,9 +46,10 @@
 +:pipewire, pavucontrol, pipewire-audio
 
 +:wofi
-+:base-devel (--needed)
 
------------------------------------------------------------------
++:mako
+
++:base-devel (--needed)
 
 +:git
 
