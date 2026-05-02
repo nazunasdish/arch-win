@@ -52,7 +52,7 @@
 
 +:git
 
-+:yay (https://aur.archlinux.org/yay.git)
++:yay (https://aur.archlinux.org/yay.git ,makepkg -si)
 
 +:code (vscode)
 
