@@ -25,7 +25,7 @@
 
 +:sway,waybar
 
-+:man-db, man-pages, texinfo
++:man
 
 +:nano
 
