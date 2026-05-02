@@ -23,7 +23,7 @@
 
 --------------------------------------------------------------------
 
-+:sway,swaybg,waybar
++:sway,swaybg,waybar,xorg-xwayland
 
 +:man
 
@@ -80,6 +80,15 @@
 
 
 )
+
+----------------------------------------------------------------
+-network
+
++enable networkmanager:sudo systemctl enable NetworkManager --now
+
++nmtui de ket noi mang
+
+ ----------------------------------------------------------------
  
 (reboot)
  
