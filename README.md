@@ -103,9 +103,14 @@
 
  -audio
  
-	systemctl --user enable --now pipewire pipewire-pulse wireplumber
+	enable:systemctl --user enable --now pipewire pipewire-pulse wireplumber
 
  ------------------------------------------------------------------
+
+-bluetooth
+	enable:systemctl enable --now bluetooth
+
+ -----------------------------------------------------------------
  
 (reboot)
  
