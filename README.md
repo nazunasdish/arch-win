@@ -125,6 +125,9 @@
 	+tu khoi dong cung sway:(#fcitx trong ~/.config/sway/config)
 
 	+reboot , set up:fcitx5-configtool
+
+-Nemo
+	+kitty lam terminal:gsettings set org.cinnamon.desktop.default-applications.terminal exec 'kitty'
 	
  --------------------------------------------------------------
 
