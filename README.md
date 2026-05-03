@@ -65,6 +65,8 @@
 
 +:fcitx5-im fcitx5-bamboo fcitx5-configtool
 
++:mtpfs gvfs-mtp android-file-transfer
+
 
 -----------------------------------------------------------------
 
