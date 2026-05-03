@@ -63,6 +63,8 @@
 
 +:wl-clipboard
 
++:ibus-bamboo (yay)
+
 -----------------------------------------------------------------
 
 -cai dat greetd,regreet,sway
@@ -85,7 +87,7 @@
 
 
 )
-+Application Compatibility:them cai nay vao ~/.bashrc de mot so ung dung tuong thich (
++Application Compatibility:them cai nay vao /etc/environment de mot so ung dung tuong thich (
 
 	export MOZ_ENABLE_WAYLAND=1
 	
@@ -112,16 +114,34 @@
  ------------------------------------------------------------------
 
 -bluetooth
+
 	enable:systemctl enable --now bluetooth
 
  -----------------------------------------------------------------
 
  -clipboard 
+ 
 	+khoi dong cliphist trong sway (co trong file ~/.config/sway/config. ###cliphist)
 	+gan keybind:trong sway config (#clipboard)
 
 	
  --------------------------------------------------------------
-(reboot)
+
+-ibus go tieng viet
+	+:them vao trong /etc/environment (
+
+		GTK_IM_MODULE=ibus
+		
+		QT_IM_MODULE=ibus
+	
+		XMODIFIERS=@im=ibus
+	
+	)
+
+	+tu khoi dong cung sway( trong file ~/.config/sway/config #ibus)
+
+	+set up: ibus-setup
+
+
  
 	
