@@ -63,7 +63,7 @@
 
 +:wl-clipboard
 
-+:fcitx5 fcitx5-autostart fcitx5-bamboo fcitx5-configtool
++:fcitx5-im fcitx5-bamboo fcitx5-configtool
 
 
 -----------------------------------------------------------------
