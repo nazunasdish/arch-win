@@ -69,6 +69,8 @@
 
 +:noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra (fc-cache -fv, de update font)
 
++strawberry (yay)
+
 
 -----------------------------------------------------------------
 
