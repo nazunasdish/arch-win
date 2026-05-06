@@ -155,6 +155,8 @@
 
 		reboot
 	)
+	+enforce tat ca:sudo aa-enforce /etc/apparmor.d/*
+
 
 
  
