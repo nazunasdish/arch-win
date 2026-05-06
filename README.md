@@ -73,6 +73,8 @@
 
 +apparmor
 
++:spotify-launcher
+
 -----------------------------------------------------------------
 
 -cai dat greetd,regreet,sway
