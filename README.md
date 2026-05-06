@@ -157,7 +157,7 @@
 
 		reboot
 	)
-	+enforce tat ca:sudo aa-enforce /etc/apparmor.d/*
+	+enforce tat ca:sudo aa-enforce /etc/apparmor.d/* (chi enforce ung dung can bao mat)
 
 
 
