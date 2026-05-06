@@ -75,6 +75,8 @@
 
 +:spotify-launcher
 
++:libreoffice-still
+
 -----------------------------------------------------------------
 
 -cai dat greetd,regreet,sway
