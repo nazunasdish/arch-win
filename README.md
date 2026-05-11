@@ -39,7 +39,7 @@
 
 +:kitty
 
-+:nemo
++:nemo,nemo-media-columns
 
 +:networkmanager, network-manager-applet, nm-connection-editor
 
