@@ -65,7 +65,7 @@
 
 +:fcitx5-im fcitx5-bamboo fcitx5-configtool
 
-+:mtpfs gvfs-mtp android-file-transfer
++:gvfs-mtp
 
 +:noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra (fc-cache -fv, de update font)
 
