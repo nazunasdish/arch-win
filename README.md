@@ -67,7 +67,7 @@
 
 +:gvfs-mtp
 
-+:noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra (fc-cache -fv, de update font)
++:otf-font-awesome noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra (fc-cache -fv, de update font)
 
 +strawberry (yay)
 
@@ -76,8 +76,6 @@
 +:spotify-launcher
 
 +:libreoffice-still
-
-+:maple-mono-nf-cn-unhinted (yay)
 
 -----------------------------------------------------------------
 
