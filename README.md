@@ -18,9 +18,7 @@
 
 +:archinstall
 
-filesystem:ext5
-
-bootloader:grub
+bootloader:systemd-boot
 
 profile:minimal
 
