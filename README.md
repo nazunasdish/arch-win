@@ -17,12 +17,51 @@
 -arinstall
 
 +:archinstall
+
 filesystem:ext5
+
 bootloader:grub
+
 profile:minimal
+
 audio:pipewire
+
 power management:power-profiles-daemon
+
 firewall:ufw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -package:
 
