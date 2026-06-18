@@ -76,7 +76,11 @@ exec "regreet; swaymsg exit"
 
 ++: set $term foot -> set $term kitty
 
-++: set $menu wmenu-run -> set $menu wofi --grun
+++: set $menu wmenu-run -> set $menu wofi --show drun
+
+-reboot
+
+---------------------------------------
 
 
 
