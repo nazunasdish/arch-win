@@ -31,7 +31,12 @@ power management:power-profiles-daemon
 firewall:ufw
 
 --------------------------------------
-package:sway,swaybg,waybar,xorg-xwayland,swaylock,swayidle,nano,firefox,greetd,greetd-regreet,kitty,wofi
+
+-package:sway,swaybg,waybar,xorg-xwayland,swaylock,swayidle,nano,firefox,greetd,greetd-regreet,kitty,wofi
+
+-:systemctl enable greetd
+
+-cau hinh tam thoi /etc/greetd/config.toml:
 
 
 
