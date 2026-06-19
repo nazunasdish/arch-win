@@ -147,7 +147,7 @@ package:cliphist
 ```
 exec wl-paste --type text --watch cliphist store
 exec wl-paste --type image --watch cliphist store
-bindsym $mod+v exec cliphist list | wofi --dmenu | cliphist decode | wl-copy
+bindsym $mod+Shift+v exec cliphist list | wofi --dmenu | cliphist decode | wl-copy
 ```
 
 
