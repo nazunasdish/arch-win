@@ -95,9 +95,11 @@ makepkg -si
 
 ---------------------------------------
 
-package:polkit-gnome
+package:polkit-gnome, blueman,pavucontrol,fastfetch,nemo
 
 them vao swayconfig "exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+
+-dat kitty lam terminal cho nemo:gsettings set org.cinnamon.desktop.default-applications.terminal exec 'kitty'
 
 ---------------------------------------------
 
@@ -136,28 +138,6 @@ reboot
 
 -config:fcitx5-configtool
 
--------------------------------------------------
-
-
-
-
-
-
-
-
-package:blueman,pavucontrol,fastfetch,nemo
-
----------------------------------------
-
-
-
-
-
-
-
-
-
-
 --------------------------------------------------------------------
 
 
@@ -191,22 +171,7 @@ package:blueman,pavucontrol,fastfetch,nemo
  
 	+khoi dong cliphist trong sway (co trong file ~/.config/sway/config. ###cliphist)
 	+gan keybind:trong sway config (#clipboard)
-
--Fcitx5 (xoa ibus neu co)
-	
-	+them bien moi truong (#fcitx trong /etc/environment)
-
-	+tu khoi dong cung sway:(#fcitx trong ~/.config/sway/config)
-
-	+reboot , set up:fcitx5-configtool
-
--Nemo
-	+kitty lam terminal:gsettings set org.cinnamon.desktop.default-applications.terminal exec 'kitty'
-	
  --------------------------------------------------------------
-
- -firefox
- 
 
 -apparmor
 
