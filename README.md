@@ -140,7 +140,7 @@ reboot
 
 --------------------------------------------------------------------
 
-package:cliphist,gvfs-mtp
+package:cliphist
 
 -swayconfig:
 
@@ -152,7 +152,7 @@ bindsym $mod+Shift+v exec cliphist list | wofi --dmenu | cliphist decode | wl-co
 
 ----------------------------------------------------------------------
 
-
+package:spotify-launcher, strawberry, libreoffice-still,gvfs-mtp
 
 
 +:mako
@@ -161,13 +161,7 @@ bindsym $mod+Shift+v exec cliphist list | wofi --dmenu | cliphist decode | wl-co
 
 +:eww (yay)
 
-+strawberry (yay)
-
 +apparmor
-
-+:spotify-launcher
-
-+:libreoffice-still
 
 +:guvcview
 
