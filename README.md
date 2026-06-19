@@ -209,9 +209,10 @@ package:blueman,pavucontrol,fastfetch,nemo
 
 
 
-
+----------------------------------------------------------------------------------------------------------------
 
 **sua loi "Mount point '/boot' which backs the random seed file is world accessible, which is a security hole!"
+
 sudo nano /etc/fstab roi sua dmask, fmask thanh o phan /boot thanh dmask=0077, fmask=0077
 
 
