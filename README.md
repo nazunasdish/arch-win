@@ -99,7 +99,7 @@ package:polkit-gnome
 
 them vao swayconfig "exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 
-----------------------------------------
+---------------------------------------------
 
 package:networkmanager, network-manager-applet
 
@@ -111,9 +111,13 @@ them vao swayconfig "exec nm-applet --indicator"
 
 reboot
 
+------------------------------------------------
 
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-jetbrains-mono-nerd
 
+fc-cache -fv
 
+-----------------------------------------------
 
 
 package:blueman,pavucontrol,fastfetch,nemo
@@ -131,15 +135,8 @@ package:blueman,pavucontrol,fastfetch,nemo
 
 --------------------------------------------------------------------
 
-+:networkmanager, network-manager-applet, nm-connection-editor
 
 +:mako
-
-+:base-devel (--needed)
-
-+:git
-
-+:yay (https://aur.archlinux.org/yay.git ,makepkg -si)
 
 +:code (vscode)
 
@@ -153,8 +150,6 @@ package:blueman,pavucontrol,fastfetch,nemo
 
 +:gvfs-mtp
 
-+:noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra (fc-cache -fv, de update font)
-
 +strawberry (yay)
 
 +apparmor
@@ -163,26 +158,7 @@ package:blueman,pavucontrol,fastfetch,nemo
 
 +:libreoffice-still
 
-+:maple-mono-nf-cn-unhinted (yay)
-
 +:guvcview
-
-----------------------------------------------------------------
-
--network
-
-+enable networkmanager:sudo systemctl enable NetworkManager --now
-
-+nmtui de ket noi mang (nho tat iwd:sudo systemctl disable --now iwd)
-
- ----------------------------------------------------------------
-
- -audio
- 
-	enable:systemctl --user enable --now pipewire pipewire-pulse wireplumber
-
- ------------------------------------------------------------------
-
 
  -----------------------------------------------------------------
 
