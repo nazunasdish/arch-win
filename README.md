@@ -119,7 +119,7 @@ fc-cache -fv
 
 -----------------------------------------------
 
--package fcitx5 fcitx5-unikey fcitx5-configtool fcitx5-gtk fcitx5-qt
+-package: fcitx5 fcitx5-unikey fcitx5-configtool fcitx5-gtk fcitx5-qt
 
 -them vao /etc/environment:
 
