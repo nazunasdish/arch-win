@@ -140,7 +140,7 @@ reboot
 
 --------------------------------------------------------------------
 
-package:cliphist
+package:cliphist,gvfs-mtp
 
 -swayconfig:
 
@@ -150,8 +150,7 @@ exec wl-paste --type image --watch cliphist store
 bindsym $mod+Shift+v exec cliphist list | wofi --dmenu | cliphist decode | wl-copy
 ```
 
-
-
+----------------------------------------------------------------------
 
 
 
@@ -161,8 +160,6 @@ bindsym $mod+Shift+v exec cliphist list | wofi --dmenu | cliphist decode | wl-co
 +:code (vscode)
 
 +:eww (yay)
-
-+:gvfs-mtp
 
 +strawberry (yay)
 
