@@ -152,7 +152,7 @@ bindsym $mod+Shift+v exec cliphist list | wofi --dmenu | cliphist decode | wl-co
 
 ----------------------------------------------------------------------
 
-package:spotify-launcher, strawberry, libreoffice-still,gvfs-mtp,brightnessctl
+package:spotify-launcher, strawberry, libreoffice-still,gvfs-mtp,brightnessctl,proton-vpn-gtk-app
 
 ------------------------------------------------------------------------
 
